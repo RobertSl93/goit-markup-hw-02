@@ -12,6 +12,9 @@
     --right-logo-color:#000000;
     --right-logo-color-dark-theme:#FFFFFF;
     --contact-color:rgba(255, 255, 255, 0.6);
+    --header-color:#ECECEC;
+    --hero-title-color:#FFFFFF;
+    --ourteam-background-color:#F5F4FA;
 
 }
 
@@ -27,8 +30,11 @@ body {
     font-size: 26px;
     line-height: 1.192;
     letter-spacing: 0.03em;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     text-decoration: none;
+}
+
+.portfolio-logo{
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .logo-left-side{
@@ -45,6 +51,10 @@ body {
 /* ========COMPONENTS END======= */
 
 /* ========HEADER======= */
+.header{
+    border: 1px solid var(--header-color)
+}
+
 .navigation-list{
     list-style: none;
 }
@@ -104,25 +114,122 @@ body {
 }
 
 .main-list-title{
-font-weight: bold;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
 }
 
 .main-list-paragraph{
-font-size: 16px;
-line-height: 1.875;
-letter-spacing: 0.03em;
-color: var(--secondary-color);
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color);
 }
 /* ========MAIN END======= */
 
-/* ========COMPONETNTS======= */
-/* ========COMPONETNTS======= */
+/* ========HERO======= */
+.hero{
+    background: var(--background-color)
+}
 
-/* ========COMPONETNTS======= */
-/* ========COMPONETNTS======= */
+.hero-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.363;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--hero-title-color);
+}
+
+.hero-button{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.875;
+    display: flex;
+    border:none;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--checked-button-color);
+    cursor: pointer;
+    background: var(--checked-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+/* ========HERO END======= */
+
+/* ========OUR STRENGHT======= */
+.ourstrength-list{
+    list-style: none;
+}
+
+.ourstrength-list-item-title{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.ourstrength-list-item-text{
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color);
+}
+/* ========OUR STRENGHT END======= */
+
+/* ========WHAT WE DO======= */
+.whatwedo-title{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.166;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.whatwedo-list{
+    list-style: none;
+}
+/* ========WHAT WE DO END======= */
+
+/* ========OUR TEAM======= */
+.ourteam{
+    background: var(--ourteam-background-color);
+}
+
+.ourteam-title{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.166;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.ourteam-list{
+    list-style: none;
+}
+
+.ourteam-list-item-name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.1875;
+    text-align: center;
+    letter-spacing: 0.03em; 
+}
+
+.ourteam-list-item-occupation{
+    font-size: 16px;
+    line-height: 1.1875;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color);
+}
+
+/* ========OUR TEAM END======= */
+
 
 /* ========FOOTER======= */
 
@@ -134,27 +241,20 @@ color: var(--secondary-color);
     list-style: none;
 }
 
-.footer-list-address{
+.footer-list-link{
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
-    color: var(--address-color);
     text-decoration: none;
+    color:var(--contact-color);
 }
 
-.footer-list-mail{
-font-size: 14px;
-line-height: 1.714;
-letter-spacing: 0.03em;
-text-decoration-line: underline;
-color: var(--contact-color);
+.footer-list-address{
+    color: var(--address-color);
 }
 
-.footer-list-tel{
-font-size: 14px;
-line-height: 1.714;
-letter-spacing: 0.03em;
-color: var(--contact-color);
-text-decoration: none;
+.portfolio-footer-list-mail{
+    text-decoration: underline;
 }
+
 /* ========FOOTER END======= */
