@@ -4,98 +4,206 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&family=Roboto:wght@400;700;900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css/styles.css" />
 		<title>Portfolio</title>
 	</head>
 	<body>
 		<!-- HEADER -->
-		<header>
-			<a href="#"
-				><span>Web<span></span>Studio</span></a
+		<header class="header">
+			<a href="#" class="logo">
+				<span class="logo-left-side">Web</span
+				><span class="logo-right-side">Studio</span></a
 			>
-			<nav>
-				<ul>
-					<li><a href="#">Agencja</a></li>
-					<li><a href="#">Portfolio</a></li>
-					<li><a href="#">Kontakty</a></li>
+			<nav class="navigation">
+				<ul class="navigation-list">
+					<li class="navigation-list-item">
+						<a href="#" class="navigation-list-link">Portfolio</a>
+					</li>
+					<li class="navigation-list-item">
+						<a href="#" class="navigation-list-link">Agencja</a>
+					</li>
+					<li class="navigation-list-item">
+						<a href="#" class="navigation-list-link">Kontakt</a>
+					</li>
 				</ul>
 			</nav>
-			<ul>
-				<li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-				<li><a href="tel:+48111111111">+ 48 111 111 111</a></li>
+			<ul class="address-list">
+				<li class="address-list-item">
+					<a href="mailto:info@devstudio.com" class="address-list-link"
+						>info@devstudio.com</a
+					>
+				</li>
+				<li class="address-list-item">
+					<a href="tel:+48111111111" class="address-list-link"
+						>+ 48 111 111 111</a
+					>
+				</li>
 			</ul>
 		</header>
-		type="button"
-		<!-- MAIN -->
-		<main>
-			<ul>
-				<li><button type="button">Wszystkie</button></li>
-				<li><button type="button">Strony</button></li>
-				<li><button type="button">Aplikacje</button></li>
-				<li><button type="button">Dizajn</button></li>
-				<li><button type="button">Marketing</button></li>
+		<main class="main">
+			<ul class="filter-list">
+				<li class="filter-list-item">
+					<button type="button" class="filter-button">Wszystkie</button>
+				</li>
+				<li class="filter-list-item">
+					<button type="button" class="filter-button">Strony</button>
+				</li>
+				<li class="filter-list-item">
+					<button type="button" class="filter-button">Aplikacje</button>
+				</li>
+				<li class="filter-list-item">
+					<button type="button" class="filter-button">Dizajn</button>
+				</li>
+				<li class="filter-list-item">
+					<button type="button" class="filter-button">Marketing</button>
+				</li>
 			</ul>
-			<ul>
-				<li>
-					<a href="#"><img src="images/portfolio/img-1.jpg" alt="Page site" width="370" height="294" /></a>
-					<a href="#">Technocrack</a>
-					<p>Strona internetowa</p>
+			<ul class="main-list">
+				<li class="main-list-item">
+					<a href="#" class="main-list-link">
+						<img
+							src="images/portfolio/img-1.jpg"
+							alt="Page site"
+							width="370"
+							height="294"
+							class="main-list-img"
+					/></a>
+					<h3 class="main-list-title">Technocrack</h3>
+					<p class="main-list-paragraph">Strona internetowa</p>
 				</li>
-				<li>
-					<a href="#"> <img src="images/portfolio/img-2.jpg" alt="Basketball players" width="370" height="294" /></a>
-					<a href="#">Grafka New Orlean vs Golden Star</a>
-					<p>Dizajn</p>
+				<li class="main-list-item">
+					<a href="#" class="main-list-link"
+						><img
+							src="images/portfolio/img-2.jpg"
+							alt="Basketball players"
+							width="370"
+							height="294"
+							class="main-list-img"
+					/></a>
+					<h3 class="main-list-title">Grafka New Orlean vs Golden Star</h3>
+					<p class="main-list-paragraph">Dizajn</p>
 				</li>
-				<li>
-					<a href="#"><img src="images/portfolio/img-3.jpg" alt="Seafood logo" width="370" height="294" /></a>
-					<a href="#">Restaurcja Seafood</a>
-					<p>Aplikacja</p>
+				<li class="main-list-item">
+					<a href="#" class="main-list-link">
+						<img
+							src="images/portfolio/img-3.jpg"
+							alt="Seafood logo"
+							width="370"
+							height="294"
+							class="main-list-img"
+					/></a>
+					<h3 class="main-list-title">Restaurcja Seafood</h3>
+					<p class="main-list-paragraph">Aplikacja</p>
 				</li>
-				<li>
-					<a href="#"><img src="images/portfolio/img-4.jpg" alt="Headphones" width="370" height="294" /></a>
-					<a href="#">Projekt Prime</a>
-					<p>Marketing</p>
+				<li class="main-list-item">
+					<a href="#" class="main-list-link">
+						<img
+							src="images/portfolio/img-4.jpg"
+							alt="Headphones"
+							width="370"
+							height="294"
+							class="main-list-img"
+					/></a>
+					<h3 class="main-list-title">Projekt Prime</h3>
+					<p class="main-list-paragraph">Marketing</p>
 				</li>
-				<li>
-					<a href="#"><img src="images/portfolio/img-5.jpg" alt="Two boxes" width="370" height="294" /></a>
-					<a href="#">Projekt Boxes</a>
-					<p>Aplikacja</p>
+				<li class="main-list-item">
+					<a href="#" class="main-list-link">
+						<imh1
+							src="images/portfolio/img-5.jpg"
+							alt="Two boxes"
+							width="370"
+							height="294"
+							class="main-list-img"
+					/></a>
+					<h3 class="main-list-title">Projekt Boxes</h3>
+					<p class="main-list-paragraph">Aplikacja</p>
 				</li>
-				<li>
-					<a href="#"><img src="images/portfolio/img-6.jpg" alt="Monitor" width="370" height="294" /></a>
-					<a href="#">Inspiration has no Borders</a>
-					<p>Strona internetowa</p>
+				<li class="main-list-item">
+					<a href="#" class="main-list-link">
+						<img
+							src="images/portfolio/img-6.jpg"
+							alt="Monitor"
+							width="370"
+							height="294"
+							class="main-list-img"
+					/></a>
+					<h3 class="main-list-title">Inspiration has no Borders</h3>
+					<p class="main-list-paragraph">Strona internetowa</p>
 				</li>
-				<li>
-					<a href="#"><img src="images/portfolio/img-7.jpg" alt="Magazine" width="370" height="294" /> </a>
-					<a href="#">Magazyn Limited Edition</a>
-					<p>Dizajn</p>
+				<li class="main-list-item">
+					<a href="#" class="main-list-link">
+						<img
+							src="images/portfolio/img-7.jpg"
+							alt="Magazine"
+							width="370"
+							height="294"
+							class="main-list-img"
+						/>
+					</a>
+					<h3 class="main-list-title">Magazyn Limited Edition</h3>
+					<p class="main-list-paragraph">Dizajn</p>
 				</li>
-				<li>
-					<a href="#"><img src="images/portfolio/img-8.jpg" alt="Pendant" width="370" height="294" /></a>
-					<a href="#">Projekt LAB</a>
-					<p>Marketing</p>
+				<li class="main-list-item">
+					<a href="#" class="main-list-link">
+						<img
+							src="images/portfolio/img-8.jpg"
+							alt="Pendant"
+							width="370"
+							height="294"
+							class="main-list-img"
+					/></a>
+					<h3 class="main-list-title">Projekt LAB</h3>
+					<p class="main-list-paragraph">Marketing</p>
 				</li>
-				<li>
-					<a href="#"><img src="images/portfolio/img-9.jpg" alt="laptop" width="370" height="294" /></a>
-					<a href="#">Growing Business</a>
-					<p>Aplikacja</p>
+				<li class="main-list-item">
+					<a href="#" class="main-list-link">
+						<img
+							src="images/portfolio/img-9.jpg"
+							alt="laptop"
+							width="370"
+							height="294"
+							class="main-list-img"
+					/></a>
+					<h3 class="main-list-title">Growing Business</h3>
+					<p class="main-list-paragraph">Aplikacja</p>
 				</li>
 			</ul>
 		</main>
-        <!-- FOOTER -->
-		<footer></footer>
-        <a href="#"><span>Web</span><span>Studio</span></a>
-      <address>
-        <ul>
-          <li>
-            <a href="https://goo.gl/maps/Mp1jsJDvYEzKUSzLA" target="_blank"
-              >m. Warszawa, Aleje Jerozolimskie 21</a
-            >
-          </li>
-          <li><a href="mailto:info@example.com">info@example.com</a></li>
-          <li><a href="tel:+48111111111">48 111 111 111</a></li>
-        </ul>
-      </address>
-    </footer>
+		<!-- FOOTER -->
+		<footer class="footer">
+			<a href="#" class="logo"
+				><span class="logo-left-side">Web</span
+				><span class="logo-right-side-dark-theme">Studio</span></a
+			>
+			<address class="footer-address">
+				<ul class="footer-list">
+					<li class="footer-list-item">
+						<a
+							href="https://goo.gl/maps/Mp1jsJDvYEzKUSzLA"
+							target="_blank"
+							class="footer-list-address"
+							>m. Warszawa, Aleje Jerozolimskie 21</a
+						>
+					</li>
+					<li class="footer-list-item">
+						<a href="mailto:info@example.com" class="footer-list-mail"
+							>info@example.com</a
+						>
+					</li>
+					<li class="footer-list-item">
+						<a href="tel:+48111111111" class="footer-list-tel"
+							>48 111 111 111</a
+						>
+					</li>
+				</ul>
+			</address>
+		</footer>
 	</body>
 </html>
