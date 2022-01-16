@@ -15,7 +15,6 @@
     --header-color:#ECECEC;
     --hero-title-color:#FFFFFF;
     --ourteam-background-color:#F5F4FA;
-
 }
 
 body {
@@ -70,16 +69,16 @@ body {
 
 .navigation-list-link:focus,   
 .navigation-list-link:hover,
-.address-list-link:focus,
-.address-list-link:hover{
+.contact-list-link:focus,
+.contact-list-link:hover{
     color:var(--checked-color);   
 }
 
-.address-list{
+.contact-list{
     list-style: none;
 }
 
-.address-list-link{
+.contact-list-link{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.143;
@@ -161,11 +160,11 @@ body {
 /* ========HERO END======= */
 
 /* ========OUR STRENGHT======= */
-.ourstrength-list{
+.our-strength-list{
     list-style: none;
 }
 
-.ourstrength-list-item-title{
+.our-strength-list-item-title{
     font-weight: bold;
     font-size: 14px;
     line-height: 1.142;
@@ -173,7 +172,7 @@ body {
     text-transform: uppercase;
 }
 
-.ourstrength-list-item-text{
+.our-strength-list-item-text{
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
@@ -182,7 +181,7 @@ body {
 /* ========OUR STRENGHT END======= */
 
 /* ========WHAT WE DO======= */
-.whatwedo-title{
+.what-we-do-title{
     font-weight: bold;
     font-size: 36px;
     line-height: 1.166;
@@ -190,17 +189,17 @@ body {
     letter-spacing: 0.03em;
 }
 
-.whatwedo-list{
+.what-we-do-list{
     list-style: none;
 }
 /* ========WHAT WE DO END======= */
 
 /* ========OUR TEAM======= */
-.ourteam{
+.our-team{
     background: var(--ourteam-background-color);
 }
 
-.ourteam-title{
+.our-team-title{
     font-weight: bold;
     font-size: 36px;
     line-height: 1.166;
@@ -208,11 +207,11 @@ body {
     letter-spacing: 0.03em;
 }
 
-.ourteam-list{
+.our-team-list{
     list-style: none;
 }
 
-.ourteam-list-item-name{
+.our-team-list-item-name{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.1875;
@@ -220,7 +219,7 @@ body {
     letter-spacing: 0.03em; 
 }
 
-.ourteam-list-item-occupation{
+.our-team-list-item-occupation{
     font-size: 16px;
     line-height: 1.1875;
     text-align: center;
@@ -255,6 +254,11 @@ body {
 
 .portfolio-footer-list-mail{
     text-decoration: underline;
+}
+
+.footer-list-link:focus,
+.footer-list-link:hover{
+    color:var(--checked-color); 
 }
 
 /* ========FOOTER END======= */
