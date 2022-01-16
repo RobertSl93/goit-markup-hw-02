@@ -86,6 +86,10 @@ body {
     color: var(--secondary-color);
     text-decoration: none;
 }
+
+.portfolio-active{
+    color: var(--checked-color)
+}
 /* ========HEADER END======= */
 
 /* ========MAIN======= */
